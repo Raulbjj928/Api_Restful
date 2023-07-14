@@ -25,6 +25,7 @@ namespace Api_Restful.Controllers
 
         [HttpPost]
         [Route("InsertUser")]
+        [Authorize]
         public IActionResult InsertUser([FromBody] Usuarios usuarioEnviado)
         {
             try
@@ -47,6 +48,7 @@ namespace Api_Restful.Controllers
 
         [HttpPut]
         [Route("UpdateUser")]
+        [Authorize]
         public IActionResult UpdateUser([FromBody] Usuarios usuarioEnviado)
         {
             try
@@ -68,6 +70,7 @@ namespace Api_Restful.Controllers
         }
         [HttpPost]
         [Route("GetUserByEmail")]
+        [Authorize]
         public IActionResult GetClienteByEmail([FromBody] string email)
         {
             try
@@ -98,6 +101,7 @@ namespace Api_Restful.Controllers
         }
         [HttpGet]
         [Route("GetAllUsers")]
+        [Authorize]
         public IActionResult GetAllClientes()
         {
             try
@@ -122,6 +126,7 @@ namespace Api_Restful.Controllers
 
         [HttpDelete]
         [Route("DeleteUserByEmail")]
+        [Authorize]
         public IActionResult DeleteUserByEmail([FromBody] string email)
         {
             try

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "u2cB6sQHkged3UMuucuEByPjFKrbeavZSx6MDZBK05ITVWmcgehOxIgipUQDLKIkOSwSXthtLnZYuYqH4e8UdA==",
+  "dgSpecHash": "lfDP34cMAxZG/Uromf/czqthj3yxRk31KMLX3AU3nII2AgNpP+q9KHw02KwkRhOo3TOcxEiC1cABVQofSKA4Ww==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\Api_Restful\\Api_Restful\\Api_Restful.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raulh\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\raulh\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\raulh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\raulh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\raulh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\raulh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\raulh\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
